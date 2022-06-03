@@ -7,6 +7,7 @@
 * E-mail: tocmah@gmail.com
 * GitHub: [GKiant](https://github.com/GKiant)
 * Discord: G Kiant#5467
+
 ## About Me
 
 Through my career as a Customer Expierence Representative I greatly developed Soft Skills. Additionally acquired ability to work in fast paced changing environment and advanced in distress tolerance skills. Committed team player, always eager to learn something new. 
@@ -16,11 +17,13 @@ Through my career as a Customer Expierence Representative I greatly developed So
 * CSS
 * Git
 * VSCode
+
 ## Code Example
 
 ```
 function multiply(a, b){
-  return a * b
+  return a 
+* b
 }
 ```
 ## Projects
