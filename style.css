@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+}
+
+body {
+  max-width: 1275px;
+  margin: 0 auto;
+}
+
+.section-header {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #157698;
+}
+
+/* Header */
+header {
+  position: relative;
+  height: 442px;
+  /* margin-bottom: 500px; */
+}
+
+.header-background-filling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 1275px;
+  height: 385px;
+  background-color: #4C4E50;
+}
+
+.header-avatar-container {
+  position: absolute;
+  z-index: 1;
+  margin: 90px 0 88px 107px;
+  width: 1168px;
+  height: 351px;
+  background-color: #157698;
+}
+
+.avatar {
+  margin: 56px 0 55px 130px;
+}
+
+.header-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 846px;
+  height: 385px;
+  background-color: #FFFFFF;
+}
+
+.cv-header {
+  margin: 93px 0 10px 54px;
+}
+
+.cv-header-firstname {
+  margin-right: 23px;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 900;
+  color: #157698;
+}
+
+.cv-header-surname {
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 300;
+  color: #A9A9A9;
+}
+
+.header-section-occupancy {
+  margin-bottom: 76px;
+  margin-left: 54px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #157698;
+}
+
+.header-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin-left: 50px;
+}
+
+.header-list-item:nth-child(odd) {
+  width: 425px;
+  margin-right: 40px;
+}
+
+.header-list-item:nth-child(1),
+.header-list-item:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.link-icon-github {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/github-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-twitter {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/twitter.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-facebook {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/facebook-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-vk {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/vk-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.social-link {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 500;
+  color: #333333;
+}
+
+main {
+  
+}
