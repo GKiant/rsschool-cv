@@ -286,7 +286,7 @@ main {
   color: #4F4F4F;
 }
 
-pre {
+.code-example {
   margin: 0 auto 30px;
 }
 
@@ -447,7 +447,6 @@ footer {
   height: 24px;
   width: 24px;
   background: url("/img/github-logo-white.png") center center no-repeat transparent;
-  margin-left: 28px;
   background-size: contain;
   transform: translateY(5px);
 }
