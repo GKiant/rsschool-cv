@@ -161,7 +161,7 @@ header {
   margin-right: 20px;
   height: 24px;
   width: 24px;
-  background: url("/img/github-logo.png") left center no-repeat transparent;
+  background: url("./img/github-logo.png") left center no-repeat transparent;
   margin-left: 28px;
   background-size: contain;
   transform: translateY(4px);
@@ -172,7 +172,7 @@ header {
   margin-right: 20px;
   height: 24px;
   width: 24px;
-  background: url("/img/twitter.png") left center no-repeat transparent;
+  background: url("./img/twitter.png") left center no-repeat transparent;
   margin-left: 28px;
   background-size: contain;
   transform: translateY(4px);
@@ -183,7 +183,7 @@ header {
   margin-right: 20px;
   height: 24px;
   width: 24px;
-  background: url("/img/facebook-logo.png") left center no-repeat transparent;
+  background: url("./img/facebook-logo.png") left center no-repeat transparent;
   margin-left: 28px;
   background-size: contain;
   transform: translateY(4px);
@@ -194,7 +194,7 @@ header {
   margin-right: 20px;
   height: 24px;
   width: 24px;
-  background: url("/img/vk-logo.png") left center no-repeat transparent;
+  background: url("./img/vk-logo.png") left center no-repeat transparent;
   margin-left: 28px;
   background-size: contain;
   transform: translateY(4px);
@@ -245,7 +245,7 @@ main {
   margin-right: 14px;
   width: 15px;
   height: 15px;
-  background: url("/img/phone-icon.png") center center no-repeat transparent;
+  background: url("./img/phone-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(1px);
 }
@@ -255,7 +255,7 @@ main {
   margin-right: 14px;
   width: 15px;
   height: 15px;
-  background: url("/img/mail-icon.png") center center no-repeat transparent;
+  background: url("./img/mail-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(1px);
 }
@@ -265,7 +265,7 @@ main {
   margin-right: 14px;
   width: 15px;
   height: 15px;
-  background: url("/img/discord-icon.png") center center no-repeat transparent;
+  background: url("./img/discord-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(1px);
 }
@@ -363,7 +363,7 @@ main {
   display: inline-block;
   height: 25px;
   width: 25px;
-  background: url("/img/html-icon.png") center center no-repeat transparent;
+  background: url("./img/html-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(5px);
 }
@@ -373,7 +373,7 @@ main {
   display: inline-block;
   height: 25px;
   width: 25px;
-  background: url("/img/css-icon.png") center center no-repeat transparent;
+  background: url("./img/css-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(5px);
 }
@@ -383,7 +383,7 @@ main {
   display: inline-block;
   height: 25px;
   width: 25px;
-  background: url("/img/github-icon.png") center center no-repeat transparent;
+  background: url("./img/github-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(5px);
 }
@@ -393,7 +393,7 @@ main {
   display: inline-block;
   height: 25px;
   width: 25px;
-  background: url("/img/vscode-icon.png") center center no-repeat transparent;
+  background: url("./img/vscode-icon.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(5px);
 }
@@ -446,7 +446,7 @@ footer {
   margin-right: 5px;
   height: 24px;
   width: 24px;
-  background: url("/img/github-logo-white.png") center center no-repeat transparent;
+  background: url("./img/github-logo-white.png") center center no-repeat transparent;
   background-size: contain;
   transform: translateY(5px);
 }
@@ -472,4 +472,3 @@ footer {
 .footer-rsschool {
   margin-right: 90px;
 }
-
