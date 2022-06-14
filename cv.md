@@ -42,4 +42,4 @@ CV#1. Markdown & Git - https://GKiant.github.io/rsschool-cv/cv
 ## Languages
 
 1. Russian - native
-2. English - B1-B2 (three and half years of work experience in multicultural companies (Agoda, Carnival Cruise Lines) with English as main language)
+2. English - B2-C1 (three and half years of work experience in multicultural companies (Agoda, Carnival Cruise Lines) with English as main language)

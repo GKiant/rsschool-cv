@@ -1,23 +1,475 @@
+* {
+  box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFFFFF;
+}
+
+body {
+  max-width: 1275px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: inline-block;
+  margin: 0 auto 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  line-height: 35px;
+  font-weight: 700;
+  color: #157698;
+}
+
+.header-highlight-line {
+  display: inline-block;
+  margin-right: 20px;
+  width: 10px;
+  height: 32px;
+  left: 0px;
+  top: 3px;
+  background: #157698;
+  transform: translateY(7px);
+}
+
+/* Header */
+header {
+  position: relative;
+  height: 442px;
+}
+
+.header-background-filling {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 1275px;
+  height: 385px;
+  background-color: #4C4E50;
+}
+
+.header-avatar-container {
+  position: absolute;
+  z-index: 1;
+  margin: 90px 0 0 107px;
+  width: 1168px;
+  height: 353px;
+  background-color: #157698;
+}
+
+.avatar {
+  margin: 56px 0 55px 130px;
+}
+
 .header-section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  width: 846px;
+  height: 385px;
+  background-color: #FFFFFF;
+}
 
+.nav-list {
   display: flex;
+  align-items: center;
   justify-content: center;
+  background-color: #E1E3E5;
 }
 
-.random-p-section {
-    display: flex;
-    justify-content: center;
+.nav-item-link {
+  display: inline-block;
+  min-width: 113px;
+  padding: 37px 20px;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  color: #157698;
+  text-align: center;
+  transition-duration: 0.5s;
 }
 
-.random-p {
-    max-width: 50%;
+.nav-item-link:hover {
+  background-color: #157698;
+  color: #FFFFFF;
 }
 
-.random-pic-section {
-    display: flex;
-    justify-content: center;
+.cv-header {
+  margin: 30px 0 10px 54px;
 }
 
-.random-pic {
-    width: 300px;
+.cv-header-firstname {
+  margin-right: 23px;
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 900;
+  color: #157698;
 }
+
+.cv-header-surname {
+  font-size: 50px;
+  line-height: 57px;
+  font-weight: 300;
+  color: #A9A9A9;
+}
+
+.header-section-occupancy {
+  margin-bottom: 40px;
+  margin-left: 54px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #157698;
+}
+
+.header-section-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin-left: 50px;
+}
+
+.header-list-item:nth-child(odd) {
+  width: 425px;
+  margin-right: 40px;
+}
+
+.header-list-item:nth-child(1),
+.header-list-item:nth-child(2) {
+  margin-bottom: 30px;
+}
+
+.link-icon-github {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/github-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-twitter {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/twitter.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-facebook {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/facebook-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.link-icon-vk {
+  display: inline-block;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/vk-logo.png") left center no-repeat transparent;
+  margin-left: 28px;
+  background-size: contain;
+  transform: translateY(4px);
+}
+
+.social-link {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 500;
+  color: #333333;
+}
+
+.social-link:hover {
+  color: #157698;
+}
+
+/* Main & Left info block */
+main {
+  display: flex;
+  margin-left: 107px;
+}
+
+.left-info-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  max-width: 321px;
+}
+
+.section-profile-content {
+  margin: 0 auto 30px;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.contacts-list-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.contacts-list-item:last-child {
+  margin-bottom: 40px;
+}
+
+.contacts-icon-phone {
+  display: inline-block;
+  margin-right: 14px;
+  width: 15px;
+  height: 15px;
+  background: url("/img/phone-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(1px);
+}
+
+.contacts-icon-email {
+  display: inline-block;
+  margin-right: 14px;
+  width: 15px;
+  height: 15px;
+  background: url("/img/mail-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(1px);
+}
+
+.contacts-icon-discord {
+  display: inline-block;
+  margin-right: 14px;
+  width: 15px;
+  height: 15px;
+  background: url("/img/discord-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(1px);
+}
+
+.contacts-details {
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.languages-list-item {
+  margin: 0 auto 25px 0;
+  margin-bottom: 25px;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 300;
+  color: #4F4F4F;
+}
+
+.code-example {
+  margin: 0 auto 30px;
+}
+
+/* Projects */
+.projects-container {
+  margin-top: 40px;
+}
+
+.right-info-block {
+  min-width: 850px;
+  background-color: #E1E3E5;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  max-height: 450px;
+  margin-bottom: 25px;
+}
+
+.projects-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 60px;
+}
+
+.projects-title-link {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.projects-title-link:hover {
+  color: #157698;
+}
+
+.project-screenshot {
+  max-height: 400px;
+}
+
+/* Skills & Education */
+
+.bottom-main-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+  margin-left: 17px;
+}
+
+.skills-item {
+  min-width: 200px;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 400;
+  color: #4F4F4F;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.html-icon {
+  margin: 0 10px 0 15px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url("/img/html-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(5px);
+}
+
+.css-icon {
+  margin: 0 10px 0 15px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url("/img/css-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(5px);
+}
+
+.git-icon {
+  margin: 0 10px 0 15px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url("/img/github-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(5px);
+}
+
+.vscode-icon {
+  margin: 0 10px 0 14px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background: url("/img/vscode-icon.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(5px);
+}
+
+.education-container {
+  min-width: 400px;
+}
+
+.education-item-title {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.education-item-content {
+  max-width: 335px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #666666;
+}
+
+a.education-item-content:hover {
+  color: #157698;
+}
+
+.education-sublist {
+  margin-left: 30px;
+  list-style: circle;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: #4C4E50;
+}
+
+.footer-container-git{
+  margin-left: 90px;
+}
+
+.footer-git-icon {
+  display: inline-block;
+  margin-right: 5px;
+  height: 24px;
+  width: 24px;
+  background: url("/img/github-logo-white.png") center center no-repeat transparent;
+  background-size: contain;
+  transform: translateY(5px);
+}
+
+.footer-git-text {
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  color: #E1E3E5;
+}
+
+.footer-year {
+  font-size: 17px;
+  line-height: 1;
+  font-weight: 400;
+  color: #E1E3E5;
+}
+
+.footer-git-text:hover {
+  color: #157698;
+}
+
+.footer-rsschool {
+  margin-right: 90px;
+}
+
